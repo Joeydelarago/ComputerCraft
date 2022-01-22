@@ -16,7 +16,7 @@ function BaseTurtle:digForward()
         -- Digs multiple times in case of gravel
         turtle.dig()
         os.sleep(digWait)
-        digAttemtps = digAttemtps + 1
+        digAttemtps = digAttaemtps + 1
 
         if digAttemtps > self.maxDigAttempts then
             return false
